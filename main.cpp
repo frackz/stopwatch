@@ -16,14 +16,9 @@ int input(string type, int maxInput) {
 }
 
 int main() {
-
-    int hours;
-    int minutes;
-    int seconds;
-    
-    hours = input("hours", 24);
-    minutes = input("minutes", 60);
-    seconds = input("seconds", 60);
+    int hours = input("hours", 24);
+    int minutes = input("minutes", 60);
+    int seconds = input("seconds", 60);
 
     if (hours + minutes + seconds == 0) {
         cout << "Cannot start a invalid timer";
